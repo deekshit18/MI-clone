@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+footer {
+    background-color: #151414;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-column {
+        flex: 100%;
+    }
+}
+
+.follow-mi-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.follow-mi-icons img {
+    width: 30px;
+    margin: 5px;
+}
+
+.stay-in-touch {
+    margin-top: 20px;
+}
+.footer-column a {
+    text-decoration: none;
+    color: #646262;
+    
+
+}
+
+.footer-column a:hover {
+    color: #fff;
+
+    text-decoration: underline;
+}
+.mi-app-card {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.mi-app-card img {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.mi-app-card hr {
+    border-color: #fff;
+}
+
+.play-store-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+
+}
+li{
+    padding: 5px;
+    align-content: center;
+    display: flex;
+}
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bottom-section hr {
+    flex: 1;
+    border-color: #fff;
+}
+
+.copyright-info {
+    flex: 1;
+    margin: 0;
+}
+
+.sitemap-info {
+    flex: 1;
+    text-align: left;
+}
+
+.india-info {
+    flex: 1;
+    text-align: right;
+}
+i{
+    padding: 5px;
+    text-align: right;
+    display: flex;
+
+}
